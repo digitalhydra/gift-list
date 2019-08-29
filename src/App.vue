@@ -44,12 +44,12 @@
 import Firebase from 'firebase'
 import _ from 'lodash'
 const config = {
-  apiKey: "AIzaSyB8aI9SUhZx_xexHzVvPLIQpBzzFHnT5ZM",
-  authDomain: "emiliano-f6b74.firebaseapp.com",
-  databaseURL: "https://emiliano-f6b74.firebaseio.com",
-  projectId: "emiliano-f6b74",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
   storageBucket: "",
-  messagingSenderId: "82143956233"
+  messagingSenderId: ""
 };
 let app = Firebase.initializeApp(config)
 let db = app.database()
